@@ -1,0 +1,173 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    padding: 20px 100px;
+    
+    display:flex;
+    justify-content: space-between;
+    align items: center;
+    z-index: 99;
+    
+}
+.logo {
+    font-size: 40px;
+    color: #fff;
+    user-select: none;
+    color:blueviolet;
+    font-style: italic;
+
+    
+
+}
+.navigation a {
+    
+    position:relative;
+    font-size: 1.1em;
+    color:black;
+    
+    font-weight :500;
+    margin-left: 40px;
+    
+
+}
+.navigation  .popup {
+    width: 80px;
+    height:30px;
+    background: transparent;
+    border: 3px solid black;
+    outline :none;
+    border-radius: 6px;
+    cursor: pointer;
+    font size: 1em;
+    color: white;
+    margin-left: 20px;
+    transition: .4s;
+}
+.navigation .popup:hover {
+    background:#fff;
+    color:black;
+
+}
+a:hover{
+    background-color: white;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(./image.avif ) ;
+    background-size:cover;
+    background-position: center;
+
+
+    
+}
+.wrapper{
+    position:relative;
+    width:400px;
+    height:440px;
+    background:transparent;
+    border:1px solid rgba(255,255,255);
+    border-radius:10px;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.input{
+    position:relative;
+    width:100%;
+    height:50px;
+
+margin:30px 0;
+padding:10px;
+}
+#password{
+    margin-left:10px;
+    margin-bottom:20px;
+}
+h2{
+    margin-left: 150px;
+    margin-top:20px;
+    color:white;
+    
+}
+.input label{
+    position:absolute;
+    transform: translateX(8px);
+    color:blueviolet
+}
+.input input{
+    width:70%;
+    background:transparent;
+}
+#password {
+    background:transparent;
+    width:67%;
+    color:blueviolet;
+    
+
+}
+#nothing{
+    color:blueviolet;
+}
+.btn{
+    
+    margin-top:20px;
+   margin-left: 30px;
+    margin-bottom: 10px;
+    height:30px;
+    width:300px;
+    backdrop-filter:blur;
+    color:seashell;
+    background-color:violet;
+    border-radius:6px;
+    font-size: larger;
+
+}
+.remember{
+    color: black;
+    margin:-15px 2 20px ;
+    display:flex;
+    justify-content: space-around;
+
+
+}
+.remember a{
+    color:black;
+    
+
+}
+
+
+
+.login-register a{
+    color:black;
+    
+}
+.login-register{
+    display:flex;
+    outline-color: blue;
+    
+}
+.login-register {
+font-size: 15px;
+color:black;
+margin-left: 40px;
+margin-top: 10px;
+
+}
+    
